@@ -306,9 +306,7 @@
             suffered alteration in some form, by injected humour.
           </p>
         </div>
-
         <!-- slider div -->
-
         <div
           id="default-carousel"
           class="relative w-full"
@@ -330,7 +328,7 @@
                   alt="" />
                 <h1 class="text-3xl text-white">Md. Abu Taiab</h1>
                 <p class="text-white">Full Stack Developer</p>
-                <p class="text-sky-200">
+                <p class="text-sky-200 font-thin">
                   Contrary to popular belief, Lorem Ipsum is not simply random
                   text. It has roots in a piece of classical Latin literature
                   from 45 BC,<br />
@@ -354,7 +352,7 @@
                   alt="" />
                 <h1 class="text-3xl text-white">Janifa Akter</h1>
                 <p class="text-white">React Developer</p>
-                <p class="text-lime-200">
+                <p class="text-lime-200 font-thin">
                   Contrary to popular belief, Lorem Ipsum is not simply random
                   text. It has roots in a piece of classical Latin literature
                   from 45 BC,<br />
@@ -378,7 +376,7 @@
                   alt="" />
                 <h1 class="text-3xl text-white">Awlad Hossain</h1>
                 <p class="text-white text-2xl">JS Developer</p>
-                <p class="text-red-200">
+                <p class="text-red-200 font-thin">
                   Contrary to popular belief, Lorem Ipsum is not simply random
                   text. It has roots in a piece of classical Latin literature
                   from 45 BC,<br />
@@ -411,18 +409,6 @@
               aria-current="false"
               aria-label="Slide 3"
               data-carousel-slide-to="2"></button>
-            <button
-              type="button"
-              class="w-3 h-3 rounded-full"
-              aria-current="false"
-              aria-label="Slide 4"
-              data-carousel-slide-to="3"></button>
-            <button
-              type="button"
-              class="w-3 h-3 rounded-full"
-              aria-current="false"
-              aria-label="Slide 5"
-              data-carousel-slide-to="4"></button>
           </div>
           <!-- Slider controls -->
           <button
@@ -469,6 +455,144 @@
               <span class="sr-only">Next</span>
             </span>
           </button>
+        </div>
+      </section>
+
+      <!-- fq section -->
+      <section class="px-4 mx-auto max-w-screen-xl text-center">
+        <div class="mb-5">
+          <h1
+            class="text-4xl font-bold my-10 mt-20 text-gray-900 dark:text-white">
+            Frequently Asked Any Questions
+          </h1>
+          <p class="text-sm text-gray-600 dark:text-white">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have <br />
+            suffered alteration in some form, by injected humour.
+          </p>
+        </div>
+        <div class="grid w-full gap-6 grid-cols-1 md:grid-cols-2 mt-5">
+          <div class="order-2 md:order-1">
+            <div
+              id="accordion-flush"
+              data-accordion="collapse"
+              data-active-classes="bg-white shadow dark:bg-gray-900 text-gray-900 dark:text-white"
+              data-inactive-classes="text-gray-500 dark:text-gray-400">
+              <h2 id="accordion-flush-heading-1">
+                <button
+                  type="button"
+                  class="px-5 flex items-center justify-between w-full py-5 font-medium text-left text-gray-500"
+                  data-accordion-target="#accordion-flush-body-1"
+                  aria-expanded="true"
+                  aria-controls="accordion-flush-body-1">
+                  <span>(1) What Is CSS BOX Model?</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 4.5v15m7.5-7.5h-15" />
+                  </svg>
+                </button>
+              </h2>
+              <div
+                id="accordion-flush-body-1"
+                class="hidden"
+                aria-labelledby="accordion-flush-heading-1">
+                <div class="py-5 px-5 shadow dark:border-gray-700">
+                  <p class="mb-2 text-gray-500 dark:text-gray-400">
+                    In CSS, the term "box model" is used when talking about
+                    design and layout. The CSS box model is essentially a box
+                    that wraps around every HTML element. It consists of:
+                    margins, borders, padding, and the actual content.
+                  </p>
+                </div>
+              </div>
+              <h2 id="accordion-flush-heading-2">
+                <button
+                  type="button"
+                  class="px-5 flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 shadow dark:border-gray-700 dark:text-gray-400"
+                  data-accordion-target="#accordion-flush-body-2"
+                  aria-expanded="false"
+                  aria-controls="accordion-flush-body-2">
+                  <span>(2) What is CSS flex Property?</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 4.5v15m7.5-7.5h-15" />
+                  </svg>
+                </button>
+              </h2>
+              <div
+                id="accordion-flush-body-2"
+                class="hidden"
+                aria-labelledby="accordion-flush-heading-2">
+                <div class="py-5 px-5 shadow dark:border-gray-700">
+                  <p class="mb-2 text-gray-500 dark:text-gray-400">
+                    The flex CSS shorthand property is the combination of
+                    flex-grow, flex-shrink, and flex-basis properties. It is
+                    used to set the length of flexible items. The flex property
+                    is much more responsive and mobile-friendly. It is easy to
+                    position child elements and the main container..
+                  </p>
+                </div>
+              </div>
+              <h2 id="accordion-flush-heading-3">
+                <button
+                  type="button"
+                  class="px-5 flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 shadow dark:border-gray-700 dark:text-gray-400"
+                  data-accordion-target="#accordion-flush-body-3"
+                  aria-expanded="false"
+                  aria-controls="accordion-flush-body-3">
+                  <span
+                    >What are the differences between Flowbite and Tailwind
+                    UI?</span
+                  >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 4.5v15m7.5-7.5h-15" />
+                  </svg>
+                </button>
+              </h2>
+              <div
+                id="accordion-flush-body-3"
+                class="hidden"
+                aria-labelledby="accordion-flush-heading-3">
+                <div class="py-5 px-5 shadow dark:border-gray-700">
+                  <p class="mb-2 text-gray-500 dark:text-gray-400">
+                    Tailwind #CSS is a utility-focused CSS framework that allows
+                    you to create custom styles using classes. It's quite strong
+                    and adaptable, and it may save you a significant amount of
+                    time. Flowbite is a component package that makes it simple
+                    to create complicated user interfaces using Tailwind CSS.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="order-1 md:order-2 flex justify-center">
+            <img class="w-[400px] h-[400px]" src="images/faq.png" alt="" />
+          </div>
         </div>
       </section>
     </main>
