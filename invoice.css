@@ -1,0 +1,73 @@
+body {
+  width: 50%;
+  justify-content: center;
+}
+.container {
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.left-side {
+  margin-right: 500px;
+}
+
+.from-text {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.from-text p {
+  padding: 0;
+  margin: 0;
+}
+
+.to-container {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+
+.subject {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.dear {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.dear p {
+  padding: 0;
+  margin: 0;
+}
+
+table {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+th {
+  background-color: rgb(212, 197, 198);
+}
+
+tr {
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.middle {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.Assuring {
+  margin-top: 50px;
+  margin-left: 50px;
+}
